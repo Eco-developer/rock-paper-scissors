@@ -1,0 +1,130 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+}
+
+.navbar {
+	background-color: #74FFED;
+	width: 100%;
+	align-content: flex-start;
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+.navbar .title {
+	background-color: transparent;
+	font-size: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100%;
+}
+.box {
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	align-self: center;
+	justify-content: space-between;
+	margin-left: 20%;
+	padding: 20px;
+	width: 60%;
+	height:  50%;
+	background: rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+
+.box .buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-self: flex-start;
+	width: 100%;
+	height: 20%;
+}
+
+.box .buttons button {
+	width: 120px;
+	font-size: 25px;
+	border-radius: 10px;
+	border-style: none;
+	background-color: #85E6CE;
+	cursor: pointer;
+	outline: none;
+	transition: 1s;
+}
+
+.box .buttons button:hover{
+   background-color: red;
+}
+
+.box .player{
+ 	width: 45%;
+ 	height: 80px;
+ 	background-color: #5CF647;
+ 	border-radius: 10px;
+ 	display: flex;
+	align-items: center;
+	justify-content:center;
+}
+
+
+.box .computer{
+	width: 45%;
+	height: 80px;
+	background-color: #EBBF8D;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+}
+
+.box .resultsbox {
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	background-color: #ADC4E3;
+	width: 100%;
+	height: 25%;
+	border-radius: 10px;
+}
+
+h1 {
+	font-size: 35px;
+	margin: 0;
+	padding: 5px;
+} 
+
+h2 {
+	font-size: 35px;
+	margin: 0;
+	padding: 5px;
+}
+
+.box .btnbox {
+	background-color: transparent;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	height: 40px;
+}
+
+#btnagain {
+	background-color: #85E6CE;
+	border: none;
+	border-radius: 15px;
+	font-size: 20px;
+	outline: none;
+    width: 45%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#btnagain:hover {
+	background-color: rgba(255,0,0,0.7);
+}
